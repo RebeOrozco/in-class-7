@@ -18,7 +18,25 @@ h2 {
   text-align: center;
 }
 
+nav {
+  text-align: center;
+  padding: 1rem 1 2rem;
+}
 
+nav a:visited {
+  color: purple;
+  text-decoration: none;
+
+}
+
+nav a:hover {
+  color: orange;
+
+}
+
+nav a:active {
+  color: aquamarine;
+}
 
 img {
   display: block;
@@ -45,25 +63,7 @@ p {
   text-align: center;
 }
 
-nav {
-  text-align: center;
-  padding: 1rem 1 2rem;
-}
 
-nav a:visited {
-  color: purple;
-  text-decoration: none;
-
-}
-
-nav a:hover {
-  color: orange;
-
-}
-
-nav a:active {
-  color: aquamarine;
-}
 
 footer{
   text-align: center;
