@@ -1,12 +1,73 @@
 /*Add your CSS here*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: black;
+}
+
+h1{
+  font-size: 32px;
+  text-align: center;
+}
+
+h2{
+  color: palevioletred;
+  text-align: center;
+}
 
 
 
+img{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
 
+figure{
+  padding-bottom: 1rem;
+  text-align: center;
+}
 
+.cap{
+  color: rgb(54, 0, 179)
+}
 
+section{
+  padding: 2rem 0;
+}
 
+nav{
+  text-align: center;
+  padding: 1rem 1 2rem;
+}
 
+nav a: visited{
+  color: purple;
+  text-decoration: none;
+
+}
+
+nav a: hover {
+  color: orange;
+
+}
+
+nav a: active{
+  color: aquamarine;
+}
+
+footer{
+  text-align: center;
+  padding: 1rem;
+}
+
+footer a:hover{
+  text-decoration:  none;;
+}
 
 /*No touch*/
 h1, h2, nav, .cap, footer {
