@@ -45,18 +45,18 @@ nav{
   padding: 1rem 1 2rem;
 }
 
-nav a: visited{
+nav a:visited{
   color: purple;
   text-decoration: none;
 
 }
 
-nav a: hover {
+nav a:hover {
   color: orange;
 
 }
 
-nav a: active{
+nav a:active{
   color: aquamarine;
 }
 
